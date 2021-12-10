@@ -11,7 +11,7 @@ import MenuProductsDetailScreen from '../screens/MenuProductsDetailScreen';
 const RestaurantsStackNavigator = createNativeStackNavigator();
 
 export const RestaurantsNavigator = (props) => {
-    console.log(props);
+    // console.log(props);
     return (
         <RestaurantsStackNavigator.Navigator>
             <RestaurantsStackNavigator.Screen 

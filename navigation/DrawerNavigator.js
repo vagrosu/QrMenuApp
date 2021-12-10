@@ -24,7 +24,7 @@ export const DrawerNavigator = () => {
     return (
             <HomeDrawerNavigator.Navigator 
                 drawerContent={(props) => 
-                    // console.log(props.navigation.isFocused()) ||
+                    console.log(props.navigation.isFocused()) ||
                     <DrawerContentScrollView {...props}>
                         {restaurantIsSelected &&  <DrawerSelectedRestaurantItem 
                                 restaurantName={restaurantName}
